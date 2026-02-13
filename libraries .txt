@@ -1,0 +1,33 @@
+astraal-engagement-engine/
+│
+├── database/
+│   └── engagement_schema.sql
+│
+├── public_html/
+│   ├── config/
+│   │   └── db.php
+│   │
+│   ├── api/
+│   │   ├── log_engagement.php
+│   │   ├── trigger_engagement_score.php
+│   │
+│   ├── learner/
+│   │   ├── engagement_dashboard.php
+│   │   ├── engagement_trend.php
+│   │   └── engagement_heatmap.php
+│   │
+│   ├── faculty/
+│   │   └── faculty_engagement_view.php
+│   │
+│   └── dashboard.php
+│
+├── python/
+│   ├── engagement_engine.py
+│   ├── weekly_trend_engine.py
+│   └── area_heatmap_engine.py
+│
+└── cron/
+    ├── nightly_engagement.php
+    └── weekly_trend.php
+
+
